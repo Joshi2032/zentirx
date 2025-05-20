@@ -21,6 +21,29 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'home',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        scaffoldBackgroundColor: const Color(
+          0xFFF5F6FA,
+        ), // Color de fondo claro y moderno
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blue,
+          background: const Color(0xFFF5F6FA),
+        ),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFFF5F6FA),
+          elevation: 0,
+          iconTheme: IconThemeData(color: Colors.black87),
+          titleTextStyle: TextStyle(
+            color: Colors.black87,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        textTheme: const TextTheme(
+          bodyLarge: TextStyle(color: Colors.black87),
+          bodyMedium: TextStyle(color: Colors.black87),
+        ),
+      ),
       initialRoute: '/',
       routes: {
         '/': (context) => const SplashScreen(),
