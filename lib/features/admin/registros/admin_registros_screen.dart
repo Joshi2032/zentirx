@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AdminRegistrosScreen extends StatelessWidget {
-  const AdminRegistrosScreen({Key? key}) : super(key: key);
+  const AdminRegistrosScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

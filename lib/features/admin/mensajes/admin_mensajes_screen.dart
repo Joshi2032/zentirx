@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AdminMensajesScreen extends StatelessWidget {
-  const AdminMensajesScreen({Key? key}) : super(key: key);
+  const AdminMensajesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

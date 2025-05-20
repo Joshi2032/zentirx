@@ -5,7 +5,7 @@ import 'package:zentrix/features/user/profile/user_profile_screen.dart';
 
 
 class UserDashboardScreen extends StatefulWidget {
-  const UserDashboardScreen({Key? key}) : super(key: key);
+  const UserDashboardScreen({super.key});
 
   @override
   State<UserDashboardScreen> createState() => _UserDashboardScreenState();
